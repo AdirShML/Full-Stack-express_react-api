@@ -1,0 +1,84 @@
+.SearchBoxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.SearchBoxContainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.SearchBoxContainer input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+    background-color: #333;
+    color: #fff;
+}
+
+.SearchBoxContainer button {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.SearchBoxContainer button:disabled {
+    background-color: #666;
+}
+
+.SearchBoxContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.SearchBoxContainer ul li {
+    background-color: #2a2a2a;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+.ResultsContainer {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ResultsContainer table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ResultsContainer th, .ResultsContainer td {
+    border: 1px solid #444;
+    padding: 10px;
+    text-align: left;
+}
+
+.ResultsContainer th {
+    background-color: #333;
+    color: #fff;
+}
+
+.ResultsContainer td img {
+    max-width: 100px;
+    height: auto;
+}
